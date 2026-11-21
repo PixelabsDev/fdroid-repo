@@ -86,6 +86,7 @@ jobs:
           mkdir -p public
           cp -r repo public/
           cp icon.png public/
+          cp calculator-icon.png public/
           cp index.html public/
           echo "fdroid.pixelabs.in" > public/CNAME
           touch public/.nojekyll
