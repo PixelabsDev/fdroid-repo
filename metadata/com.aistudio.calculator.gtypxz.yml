@@ -1,0 +1,26 @@
+Categories:
+  - Science & Education
+  - Calculator
+License: MIT
+AuthorName: Pixelabs
+WebSite: https://web.pixelabs.in
+SourceCode: https://github.com/PixelabsDev/Calculator
+IssueTracker: https://github.com/PixelabsDev/Calculator/issues
+
+AutoName: Pixelabs Calculator
+
+RepoType: git
+Repo: https://github.com/PixelabsDev/Calculator.git
+
+Builds:
+  - versionName: '19.9.2'
+    versionCode: 190902
+    commit: v19.9.2
+    subdir: app
+    gradle:
+      - 'yes'
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '19.9.2'
+CurrentVersionCode: 190902
